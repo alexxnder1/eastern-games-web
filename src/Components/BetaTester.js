@@ -14,8 +14,8 @@ const BetaTester = () => {
              <h1 class="beta-quote">" Be sure that a success game has or had an army of betatesters that worked hard. "</h1>
              <h1 class="beta-auth">- alexnder.dev, programmer</h1>
             
-             <h1 class="beta-q1">You think that you have ability to help us by sending to us feedback about our games?</h1>
-             <h1 class="beta-q2">You can contact us on our <a href="https://discord.me/easterngames">discord server</a> at <h1 class="beta-q3">#💡-testers</h1> channel.</h1>
+             <h1 class="beta-q1">You think that you have ability to help us by sending feedback about our games?</h1>
+             <h1 class="beta-q2">You can contact us on our <a href="https://discord.me/easterngames">discord server</a> at <h1 class="beta-q3">#🎓・job_apply</h1> channel.</h1>
 
              <div id="benefits">
                  <h1 class="b-title1">Benefits</h1>
