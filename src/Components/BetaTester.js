@@ -15,7 +15,7 @@ const BetaTester = () => {
              <h1 class="beta-auth">- alexnder.dev, programmer</h1>
             
              <h1 class="beta-q1">You think that you have ability to help us by sending to us feedback about our games?</h1>
-             <h1 class="beta-q2">You can contact us on our <a href="https://discord.gg/7cSTtpgK">discord server</a> at <h1 class="beta-q3">#💡-testers</h1> channel.</h1>
+             <h1 class="beta-q2">You can contact us on our <a href="https://discord.me/easterngames">discord server</a> at <h1 class="beta-q3">#💡-testers</h1> channel.</h1>
 
              <div id="benefits">
                  <h1 class="b-title1">Benefits</h1>
@@ -39,7 +39,7 @@ const BetaTester = () => {
                  </div>
              </div>
 
-             <h1 class="last">So what are you waiting?  <a href="https://discord.gg/7cSTtpgK">Join US</a>!</h1>
+             <h1 class="last">So what are you waiting?  <a href="https://discord.me/easterngames">Join US</a>!</h1>
             </center>
        </div>
     );
