@@ -1,0 +1,18 @@
+.down-rotated, .up-rotated {
+    height: 70px; 
+    margin-top: 300px;
+    background-color: rgba(100, 148, 237, 0.253);
+    border-radius: 50px;
+    position: fixed;
+    animation: blurIn 2s;
+    animation: fadeIn 1s;
+    right: 30px;
+    bottom: 40px;
+  }
+  .up-rotated {
+    transform: rotate(180deg);
+  }
+  
+  .down-rotated {
+    transform: rotate(0deg);
+  }

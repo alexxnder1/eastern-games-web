@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  @keyframes blurIn {
+    from {
+      filter: blur(100px);
+    }
+  
+    to {
+      filter: blur(0px);
+    }
+  }
+
+.lacum-box {
+  background-image: url('../../public//Game_artowrk.jpg');
+  width: 250px;
+  background-repeat: no-repeat;
+  background-size: 250px;
+  height: 290px;
+  cursor: pointer;
+  margin-top: 150px;
+  border: 0;
+  box-shadow: 0px 0px 20px black;
+}
+
+.lacum-box:hover {
+  box-shadow: 0px 0px 20px black;
+  transform: scale(1.1);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+.pres {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  margin-top: 350px;
+  font-size: 40px;
+  animation: gamesFade 2s forwards;
+}
+
+@keyframes gamesFade 
+{
+  from {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 1;
+    font-size: x-large;
+    transition: none;
+  }
+
+  100% {
+    margin-top: 100px;
+  }
+}
+
+#lacum-div {
+  animation: yes 2s forwards;
+}
+
+.lacum-title {
+  font-size: x-large;
+  color:red;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 0px 0px 2px black;
+}
+
+@keyframes yes 
+{
+  from {
+    opacity: 0;
+    margin-top: -10350px;
+  }
+
+  to {
+    opacity: 1;
+    margin-top: 70px;
+  }
+}

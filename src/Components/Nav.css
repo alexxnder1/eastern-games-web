@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300&display=swap');
+
+.navw, .aboutw, .Jobsw, .helpw, .navb, .aboutb, .Jobsb, .helpb {
+    display: inline;
+
+    cursor: pointer;
+    color: black;
+    background: transparent;
+    border: 0;
+    font-family: 'Anek Malayalam', sans-serif;
+    border-radius: 6px;
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 42vw;
+}
+
+.navb, .aboutb, .Jobsb, .helpb {
+    color: white;
+}
+
+.aboutw, .aboutb {
+    margin-left: 20px;
+}
+
+.Jobsw, .Jobsb {
+    margin-left: 20px;
+}
+
+.helpw, .helpb {
+    color: red;
+    margin-left: 20px;
+}
+
+.navb:hover, .aboutb:hover, .Jobsb:hover, .helpb:hover, .navw:hover, .aboutw:hover, .Jobsw:hover, .helpw:hover {
+    background: rgb(194, 194, 194);
+}
+
+.navmain {
+    animation: fadeIn 2s;
+}
+
+.homew, .homeb {
+    border: 0;
+    position: absolute;
+    display: inline;
+    outline: 0;
+    background-repeat: no-repeat;
+    height: 60px;
+    background-size: 200px;
+    background-color: transparent;
+    width: 200px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 20px;
+    animation: fadeIn 2s;
+}
+
+.homeb {
+    background-image: url('../../public/eg.png');
+}
+
+.homew {
+    background-image: url('../../public/eg.png');
+}

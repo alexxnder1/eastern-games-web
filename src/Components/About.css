@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+
+/* our story */
+.about-text, .about-story, .values-title, .values-text {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: x-large;
+    margin-top: 100px;
+    width: 74vw;
+    animation: fadeIn 2s;
+    animation: aboutMove 3s;
+}
+
+.about-text {
+    animation: aboutMove 4s;
+}
+
+.about-story {
+    font-size: xx-large;
+    margin-top: 190px;
+}
+
+#our-story, #our_values
+{
+    margin-left: 23vw;    
+}
+
+/* exp */
+#exp {
+    margin-top: 200px;
+    margin-left: 5vw;
+    animation: expMove 3s; 
+    position: absolute;
+}
+
+@keyframes expMove {
+    from {
+        opacity: 0;
+        margin-left: -100vw;
+    }
+
+    to {
+        opacity: 1;
+        margin-left: 5vw;
+    }
+}
+
+@keyframes aboutMove {
+    from {
+        opacity: 0;
+        margin-left: 100vw;
+    }
+
+    to {
+        margin-left: 0vw;
+    }
+}
+
+.exp-no, .em-no {
+    font-size: xxx-large;
+    color: cornflowerblue;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+}
+
+.exp-text, .em-text {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Asap', sans-serif;
+}
+
+@media only screen and (max-width: 1400px) {
+    #exp {
+        position: relative;
+    }
+
+    #our-story {
+        margin-left: 6vw;
+    }
+}
+
+.story-border, .values-border {
+    position: absolute;
+    height: 550px;
+    margin-top: 100px;
+    border: 0;
+    margin-left: -80px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+}
+
+.values-border {
+    background-color: red;
+    margin-left: 95vw;
+}
+
+#our-values {
+    margin-top: 200px;
+    animation: aboutMove 5s;
+}
+
+.values-title {
+    padding-bottom: 30px;
+    margin-top: 200px;
+    margin-left: 15vw;
+    font-size: xx-large;
+    text-align: center;    
+}
+
+.value-text {
+    font-family: 'Teko', sans-serif;
+    font-size: 26px;
+    width: 300px;
+    text-align: center;
+}   
+
+.value-desc {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: large;
+    width: 300px;
+}
+
+#values {
+    display:flex;
+    margin-left: 20vw;
+}
+
+.value-desc {
+    margin-right: 100px;
+}
+
+@media only screen and (max-width: 970px) {
+
+    #values {
+        display: grid;
+        margin-left: 40px;
+        margin-top: -100px;
+    }
+
+    .values-border {
+        margin-top: 10px;
+        height: 700px;
+    }
+
+    #value-1 {
+        margin-left: 0px;
+    }
+
+    .values-title {
+        text-align: left;
+        padding-left: 60px;
+        padding-bottom: 100px;
+        margin-top: 40px;
+    }
+
+    .values-image {
+        float: right;
+        margin-top: -200px;
+        left: -300px;
+    }
+
+    .story-image {
+        right: 2px;
+    }
+}
+
+#test {
+    height: 400px;
+}
+
+.story-image, .values-image {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 20vw;
+
+    z-index: 2;
+    opacity: 0.3;
+}
+
+.story-image {
+    width: 30rem;
+}
+
+.values-image {
+    float: left;
+    margin-top: -200px;
+    left: -300px;
+}

@@ -1,0 +1,6 @@
+.latest-title {
+    font-family: 'Roboto Mono';
+    font-size: x-large;
+    margin-top: 100px;
+    animation: fadeIn 2s;
+}

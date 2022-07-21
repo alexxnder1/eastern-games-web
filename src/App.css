@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@keyframes fadeIn
+{
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes popIn 
+{
+  from { transform: scaleX(0.3); }
+  to { transform: scaleX(1);}
+}
+
+.desc, .motto {
+  animation: popIn 2s;
+  margin-top: 300px;
+  font-size: large;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.motto {
+  margin-top: 0;
+}
+
+html {
+  height: 1070px;
+}
