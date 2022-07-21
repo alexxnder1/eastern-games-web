@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anek+Latin&display=swap');
 
 .lacum-bk {
-    background: rgb(132,0,193);
-    background: linear-gradient(22deg, rgba(132,0,193,1) 0%, rgba(11,11,11,1) 81%);
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     position: absolute;
     z-index: -1;
     left: 0;
@@ -14,10 +17,10 @@
 
 .lacum-image {
     border-radius: 10px;
-    width: 400px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     float: right;
-    margin-top: 330px;
+    margin-top: 270px;
     margin-right: 5vw;
     animation: fadeIn 3.2s;
     animation: moveOut 3.2s;
@@ -25,14 +28,14 @@
 
 .lacum-t {
     font-size: xx-large;
-    color: rgb(107, 0, 107);
+    color: gold;
     margin-left: 200px;
-    margin-top: 220px;
+    margin-top: 270px;
     margin-left:10vw;
     position: absolute;
     animation: fadeIn 2.8s;
     animation: moveIn 2s;
-    -webkit-text-stroke-width: 0.05px;
+    -webkit-text-stroke-width: 0.6px;
     -webkit-text-stroke-color: black;
     font-family: 'Secular One', sans-serif;
 }
@@ -42,11 +45,11 @@
     position: absolute;
     width: 700px;
     font-size: medium;
-    margin-top: 300px;
+    margin-top: 375px;
     margin-left:10vw;
     color: white;
     animation: fadeIn 7s;
-    font-family: 'Anek Latin', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: large;
     animation: moveIn 1s;
 }
@@ -60,7 +63,7 @@
     height: 50px;
     border: 0;
     background-color: rgba(44, 44, 44, 0.315);
-    margin-top: 500px;
+    margin-top: 600px;
     margin-left: 200px;
     padding-left: 60px;
     margin-left:10vw;
@@ -80,7 +83,7 @@
     width: 40px;
     margin-left:10.5vw;
     pointer-events: none;
-    margin-top: 505px;
+    margin-top: 605px;
     animation: fadeIn 4s;
 }
 
