@@ -43,7 +43,7 @@ const About = () => {
                 <img src="story.png" class="story-image"></img>
                 <h4 class="about-story">Our Story</h4>
                 <h2 class="about-text">We were founded in 2020, the year of the pandemic. Thanks to quarantines that we all know two good friends with different passions: programming and design. They wanted to set up a game dev studio and work on the first
-                their own game: Lacum. A game in which a lot of passion and love was put, but also many innovative ideas in creating a quality and fun gameplay! During this journey we encountered many obstacles that we managed to overcome each time. Many game ideas, most failed, but we kept going. You may say it was a waste of time, but for us it was different because we gained experience, experience that we used in these 2 beautiful years and with the help of which we've created Lacum.</h2> <h2 class="about-text">We are I-B Games.</h2>
+                their own game: Lacum. A game in which a lot of passion and love was put, but also many innovative ideas in creating a quality and fun gameplay! During this journey we encountered many obstacles that we managed to overcome each time. Many game ideas, most failed, but we kept going. You may say it was a waste of time, but for us it was different because we gained experience, experience that we used in these 2 beautiful years and with the help of which we've created Lacum.</h2> <h2 class="about-text">We are Eastern Games.</h2>
 
             </div>
 
