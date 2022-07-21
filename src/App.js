@@ -12,7 +12,7 @@ function App() {
   const Desc = () => {
     return (
       <div id="Desc">
-        <h1 class="desc"> Eastern Games is a independent game studio from Romania founded in 2020 by a small team. </h1>
+        <h1 class="desc"> Eastern Games is a independent game studio founded in 2020 by a small team. </h1>
         <h1 class="motto">We make awesome video games made by a professional team. Made with fun. For fun.</h1>
       </div>
     );
