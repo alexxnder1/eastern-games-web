@@ -27,7 +27,7 @@ const Lacum = () => {
             <Nav theme={true}/>
 
             <h1 class="lacum-t">Lacum</h1>
-            <h1 class="lacum-desc">Lacum is a dungeon quest game. In this game you need to beat monsters with different levels and bosses with different abilities and super-powers. Sometimes you will get to see little warriors who can be hired and that can help you throughout that specific dungeon. Also you can find money bags with a random amount of coins inside and some drinks that increase you're skills on that specific dungeon.</h1>
+            <h1 class="lacum-desc">Lacum is a dungeon quest game, where you need to beat monsters with different levels and bosses with different abilities and super-powers. Sometimes you will get to see little warriors who can be hired and that can help you throughout that specific dungeon. Also you can find money bags with a random amount of coins inside and some drinks that increase you're skills on that specific dungeon.</h1>
             <img src="../lacum.png" class="lacum-image" alt='lacum'></img>   
             <img src="../game-icon.jpg" class="playimg" alt='game-icon'></img><button class="play" onClick={() => {
                 window.open("https://play.google.com/store/games");

@@ -7,7 +7,8 @@
 }
 
 .beta-auth {
-    color: grey;
+    color: white;
+    opacity: 0.9;
     font-family: 'Poppins';
     font-style: italic;
     font-size: large;
@@ -28,9 +29,17 @@
 .beta-q3 {
     font-family: 'Poppins';
     font-size: 18px;
+    border: 0;
+    cursor: pointer;
     display: inline;
-    background-color: violet;
+    border-radius: 10px;
+    background-color: orange;
     color: grey;
+}
+
+.beta-q3:hover {
+    background-color: gray;
+    color: orange;
 }
 
 #benefits {
